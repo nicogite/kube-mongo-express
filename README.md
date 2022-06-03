@@ -21,7 +21,11 @@ kubectl get svc
 ```
 
 Go to the url <minikube_ip>:<mongo-express-port>
-    
+
+## Alternative
+
+The load balancer may be replaced by a simple nodePort :
+You can have a look on the use_nodeport branch
 
 ## Explanations
 
