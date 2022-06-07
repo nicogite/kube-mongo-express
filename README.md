@@ -22,6 +22,12 @@ kubectl get svc
 
 Go to the url <minikube_ip>:<mongo-express-port>
 
+*News* !
+A simplpe way to get the url is :
+```
+minikube service --all
+```
+
 ## Alternative
 
 The load balancer may be replaced by a simple nodePort :
